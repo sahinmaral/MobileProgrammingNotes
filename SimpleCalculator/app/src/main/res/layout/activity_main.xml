@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="177dp">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="179dp">
+
+            <TextView
+                android:id="@+id/textViewFirstNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10sp"
+                android:text="First Number :"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextFirstNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="0"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="225dp">
+
+            <TextView
+                android:id="@+id/textViewSecondNumber"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10sp"
+                android:text="Second Number : "
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextSecondNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="49sp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="0"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="412dp"
+            android:layout_height="39dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="271dp">
+
+            <Button
+                android:id="@+id/buttonAddNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:onClick="addNumbers"
+                android:text="+"
+                app:backgroundTint="#81D4FA" />
+
+            <Button
+                android:id="@+id/buttonSubtractNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:onClick="subtractNumbers"
+                android:text="-"
+                app:backgroundTint="#81D4FA" />
+
+            <Button
+                android:id="@+id/buttonMultiplyNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:onClick="multiplyNumbers"
+                android:text="*"
+                app:backgroundTint="#81D4FA" />
+
+            <Button
+                android:id="@+id/buttonDivideNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:onClick="divideNumbers"
+                android:text="/"
+                app:backgroundTint="#81D4FA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="414dp"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="311dp">
+
+            <EditText
+                android:id="@+id/editTextResult"
+                android:layout_width="12dp"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:paddingLeft="10sp"
+                android:text="Result : "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="178dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
