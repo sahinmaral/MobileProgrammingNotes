@@ -20,8 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     boolean cheatActivatedStatus = false;
 
-    HashMap<String,Double> normalPossibilities = new HashMap<>();
-    HashMap<String,Double> cheatedPossibilities = new HashMap<>();
+    HashMap<String, Double> normalPossibilities = new HashMap<>();
     List<String> allDices = new LinkedList<>();
 
     @Override
@@ -31,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
         loadDices();
         loadNormalPossibilities();
-        loadCheatedPossibilities();
+        //loadCheatedPossibilities();
 
-        imageViewFirstDice = (ImageView)findViewById(R.id.imageViewFirstDice);
-        imageViewSecondDice = (ImageView)findViewById(R.id.imageViewSecondDice);
-        imageViewBackground = (ImageView)findViewById(R.id.imageViewBackground);
+        imageViewFirstDice = (ImageView) findViewById(R.id.imageViewFirstDice);
+        imageViewSecondDice = (ImageView) findViewById(R.id.imageViewSecondDice);
+        imageViewBackground = (ImageView) findViewById(R.id.imageViewBackground);
 
         imageViewBackground.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void setImageViewByRandomNumber(ImageView imageView,int randomNumber){
-        switch (randomNumber){
+    private void setImageViewByRandomNumber(ImageView imageView, int randomNumber) {
+        switch (randomNumber) {
             case 1:
                 imageView.setImageResource(R.drawable.dice1);
                 break;
@@ -67,71 +66,67 @@ public class MainActivity extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.dice6);
                 break;
         }
+
+        imageView.setBackgroundColor(0);
+
     }
 
-    private void loadNormalPossibilities(){
-        for (int i=0; i < allDices.size(); i++){
-            normalPossibilities.put(allDices.get(i),2.778);
+    private void loadNormalPossibilities() {
+        for (int i = 0; i < allDices.size(); i++) {
+            normalPossibilities.put(allDices.get(i), 2.778);
         }
     }
 
-    private void loadCheatedPossibilities(){
-        LinkedList<String> evenDices = new LinkedList<>(Arrays.asList("1-1", "2-2", "3-3", "4-4", "5-5", "6-6"));
-
-        for (int i=0; i < allDices.size(); i++){
-            if(evenDices.contains(allDices.get(i))){
-                cheatedPossibilities.put(allDices.get(i),8.0);
-            }else{
-                cheatedPossibilities.put(allDices.get(i),1.733);
-            }
-        }
-    }
-
-    private void loadDices(){
-        for (int i=1; i <= 6; i++){
-            for(int k=1; k <= 6; k++){
+    private void loadDices() {
+        for (int i = 1; i <= 6; i++) {
+            for (int k = 1; k <= 6; k++) {
                 allDices.add(Integer.toString(i).concat("-").concat(Integer.toString(k)));
             }
         }
     }
-    public void rollDice(View view){
+
+    public void rollDice(View view) {
 
         Random rand = new Random();
-        int randomNumber = rand.nextInt(100);
+        int randomNumberForNormalPossibility = rand.nextInt(100);
+        int randomNumberForCheatedPossibility = rand.nextInt(6) + 1;
         double sumPossibilities = 0;
         String lastDiceNumbers = "";
-        int index=0;
+        int index = 0;
 
-        if(cheatActivatedStatus){
+        if (cheatActivatedStatus) {
 
-            while(sumPossibilities < randomNumber){
-                sumPossibilities = cheatedPossibilities.get(allDices.get(index)) + sumPossibilities;
-                lastDiceNumbers = allDices.get(index);
-                index++;
-            }
+/*                while (sumPossibilities < randomNumber) {
+                    sumPossibilities = cheatedPossibilities.get(allDices.get(index)) + sumPossibilities;
+                    lastDiceNumbers = allDices.get(index);
+                    index++;
+                }*/
 
-            int firstDice = Integer.parseInt(lastDiceNumbers.substring(0,1));
-            int secondDice = Integer.parseInt(lastDiceNumbers.substring(2,3));
+            LinkedList<String> evenDices = new LinkedList<>(Arrays.asList("1-1", "2-2", "3-3", "4-4", "5-5", "6-6"));
+            
+            String oneOfEvenDices = evenDices.get(randomNumberForCheatedPossibility);
 
-            setImageViewByRandomNumber(imageViewFirstDice,firstDice);
-            setImageViewByRandomNumber(imageViewSecondDice,secondDice);
+            int firstDice = Integer.parseInt(oneOfEvenDices.substring(0, 1));
+            int secondDice = Integer.parseInt(oneOfEvenDices.substring(2, 3));
+
+            setImageViewByRandomNumber(imageViewFirstDice, firstDice);
+            setImageViewByRandomNumber(imageViewSecondDice, secondDice);
 
             cheatActivatedStatus = false;
-        }else{
+        } else {
 
-            while(sumPossibilities < randomNumber){
+            while (sumPossibilities < randomNumberForNormalPossibility) {
                 sumPossibilities = normalPossibilities.get(allDices.get(index)) + sumPossibilities;
                 lastDiceNumbers = allDices.get(index);
                 index++;
             }
 
-            int firstDice = Integer.parseInt(lastDiceNumbers.substring(0,1));
-            int secondDice = Integer.parseInt(lastDiceNumbers.substring(2,3));
-            setImageViewByRandomNumber(imageViewFirstDice,firstDice);
-            setImageViewByRandomNumber(imageViewSecondDice,secondDice);
+            int firstDice = Integer.parseInt(lastDiceNumbers.substring(0, 1));
+            int secondDice = Integer.parseInt(lastDiceNumbers.substring(2, 3));
+            setImageViewByRandomNumber(imageViewFirstDice, firstDice);
+            setImageViewByRandomNumber(imageViewSecondDice, secondDice);
 
         }
-
 
 
     }
