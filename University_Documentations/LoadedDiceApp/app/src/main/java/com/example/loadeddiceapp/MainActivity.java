@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     boolean cheatActivatedStatus = false;
 
     HashMap<String, Double> normalPossibilities = new HashMap<>();
+    LinkedList<String> evenDices = new LinkedList<>(Arrays.asList("1-1", "2-2", "3-3", "4-4", "5-5", "6-6"));
     List<String> allDices = new LinkedList<>();
 
     @Override
@@ -89,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         Random rand = new Random();
         int randomNumberForNormalPossibility = rand.nextInt(100);
-        int randomNumberForCheatedPossibility = rand.nextInt(6) + 1;
+        int randomNumberForCheatedPossibility = rand.nextInt(6) + 0;
         double sumPossibilities = 0;
         String lastDiceNumbers = "";
         int index = 0;
@@ -102,12 +103,12 @@ public class MainActivity extends AppCompatActivity {
                     index++;
                 }*/
 
-            LinkedList<String> evenDices = new LinkedList<>(Arrays.asList("1-1", "2-2", "3-3", "4-4", "5-5", "6-6"));
             
             String oneOfEvenDices = evenDices.get(randomNumberForCheatedPossibility);
 
             int firstDice = Integer.parseInt(oneOfEvenDices.substring(0, 1));
             int secondDice = Integer.parseInt(oneOfEvenDices.substring(2, 3));
+
 
             setImageViewByRandomNumber(imageViewFirstDice, firstDice);
             setImageViewByRandomNumber(imageViewSecondDice, secondDice);
@@ -123,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
             int firstDice = Integer.parseInt(lastDiceNumbers.substring(0, 1));
             int secondDice = Integer.parseInt(lastDiceNumbers.substring(2, 3));
+
             setImageViewByRandomNumber(imageViewFirstDice, firstDice);
             setImageViewByRandomNumber(imageViewSecondDice, secondDice);
 
