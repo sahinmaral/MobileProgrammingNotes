@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="countries">
-        <item name="usa">United States of America</item>
-        <item name="brazil">Brazil</item>
-        <item name="russia">Russia</item>
-        <item name="turkey">Turkey</item>
-        <item name="spain">Spain</item>
-        <item name="italy">Italy</item>
-        <item name="canada">Canada</item>
+   <string-array name="countries">
+        <item name="usa">usa-United States of America</item>
+        <item name="brazil">brazil-Brazil</item>
+        <item name="russia">russia-Russia</item>
+        <item name="turkey">turkey-Turkey</item>
+        <item name="spain">spain-Spain</item>
+        <item name="italy">italy-Italy</item>
+        <item name="canada">canada-Canada</item>
     </string-array>
 </resources>

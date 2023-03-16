@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries>
+    <country name="usa">
+        <name>Amerika Birleşik Devletleri</name>
+    </country>
+    <country name="brazil">
+        <name>Brezilya</name>
+    </country>
+    <country name="russia">
+        <name>Rusya</name>
+    </country>
+    <country name="turkey">
+        <name>Türkiye</name>
+    </country>
+    <country name="spain">
+        <name>İspanya</name>
+    </country>
+    <country name="italy">
+        <name>İtalya</name>
+    </country>
+    <country name="canada">
+        <name>Kanada</name>
+    </country>
+</countries>

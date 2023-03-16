@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string-array name="countries">
+        <item name="usa">usa-Amerika Birleşik Devletleri</item>
+        <item name="brazil">brazil-Brezilya</item>
+        <item name="russia">russia-Rusya</item>
+        <item name="turkey">turkey-Türkiye</item>
+        <item name="spain">spain-İspanya</item>
+        <item name="italy">italy-İtalya</item>
+        <item name="canada">canada-Kanada</item>
+    </string-array>-->
+
+    <string-array name="countries">
+        <item>Amerika Birleşik Devletleri</item>
+        <item>Brezilya</item>
+        <item>Rusya</item>
+        <item>Türkiye</item>
+        <item>İspanya</item>
+        <item>İtalya</item>
+        <item>Kanada</item>
+    </string-array>
+</resources>
