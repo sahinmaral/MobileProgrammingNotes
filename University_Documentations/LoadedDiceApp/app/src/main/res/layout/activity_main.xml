@@ -4,56 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_700"
     tools:context=".MainActivity">
 
+
     <ImageView
-        android:id="@+id/imageViewBackground"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/teal_700" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="208dp"
-        android:layout_marginBottom="107dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/buttonRollDice"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imageViewFirstDice"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_weight="1"
-            android:background="@color/black" />
-
-        <ImageView
-            android:id="@+id/imageViewSecondDice"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_weight="1"
-            android:background="#5C6BC0" />
-    </LinearLayout>
+        app:srcCompat="@drawable/dice_app" />
 
     <Button
-        android:id="@+id/buttonRollDice"
-        android:layout_width="241dp"
+        android:id="@+id/buttonPlayGame"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginBottom="194dp"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="setIntentToPlayingActivity"
+        android:text="Play Game"
+        android:textSize="20dp"
         android:backgroundTint="#EC407A"
-        android:text="Roll Dice"
-        android:onClick="rollDice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/buttonShowStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#EC407A"
+        android:onClick="setIntentToStatisticsActivity"
+        android:text="Statistics"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.803" />
 </androidx.constraintlayout.widget.ConstraintLayout>
