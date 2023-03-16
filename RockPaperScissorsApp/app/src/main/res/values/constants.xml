@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="topScoreComputer">-3</integer>
+    <integer name="topScorePlayer">3</integer>
+    <string name="yesButton">Yes</string>
+    <string name="noButton">No</string>
+    <string name="loseStatus">YOU LOSE</string>
+    <string name="winStatus">YOU WIN</string>
+    <string name="drawStatus">DRAW</string>
+</resources>
