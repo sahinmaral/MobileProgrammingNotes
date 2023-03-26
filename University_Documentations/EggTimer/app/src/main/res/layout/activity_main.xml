@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B3E5FC"
+    android:background="#0000ff"
+    android:id="@+id/background"
     tools:context=".MainActivity">
 
     <ImageView
@@ -72,5 +73,20 @@
             android:text="Stop Process"
             android:textSize="20dp" />
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="23dp"
+        android:onClick="getSettingActivity"
+        android:background="@drawable/setting"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,11 +9,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MainActivity"
+        android:theme="@style/Theme.LearnOOPByKotlin"
         tools:targetApi="31">
-        <activity
-            android:name=".SettingActivity"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

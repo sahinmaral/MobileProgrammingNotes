@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000ff"
+    android:id="@+id/background"
+    tools:context=".SettingActivity">
+
+    <SeekBar
+        android:id="@+id/seekBarColorSettings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginBottom="146dp"
+        android:max="255"
+        android:min="0"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGoBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="199dp"
+        android:onClick="getMainActivity"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Go back to timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarColorSettings" />
+</androidx.constraintlayout.widget.ConstraintLayout>
