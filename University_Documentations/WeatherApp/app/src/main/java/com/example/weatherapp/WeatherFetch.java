@@ -51,7 +51,7 @@ public class WeatherFetch extends AsyncTask<Void,Void, ArrayList<WeatherInformat
             ApplicationInfo applicationInfo = mainContext.get().getApplicationContext().getPackageManager().getApplicationInfo(mainContext.get().getPackageName(),PackageManager.GET_META_DATA);
             String openWeatherAPIKEY = String.valueOf(applicationInfo.metaData.get("WEATHER_API_KEY"));
             if(lastLocation == null){
-                fetchUrl = String.format("https://api.openweathermap.org/data/2.5/forecast?q=Germany&appid=%s&units=metric",openWeatherAPIKEY);
+                fetchUrl = String.format("https://api.openweathermap.org/data/2.5/forecast?q=Istanbul&appid=%s&units=metric",openWeatherAPIKEY);
             }else{
                 fetchUrl = String.format("https://api.openweathermap.org/data/2.5/forecast?lat=%s&lon=%s&appid=%s&units=metric",lastLocation.getLatitude(),lastLocation.getLongitude(),openWeatherAPIKEY);
             }
