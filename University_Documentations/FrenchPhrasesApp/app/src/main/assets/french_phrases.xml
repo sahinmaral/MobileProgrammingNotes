@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phrases>
+	<phrase>
+		<id>bonjour</id>
+		<english_text>Hello / Good day / Good morning</english_text>
+		<french_text>Bonjour</french_text>
+	</phrase>
+	<phrase>
+		<id>bonsoir</id>
+		<english_text>Good evening</english_text>
+		<french_text>Bonsoi</french_text>
+	</phrase>
+	<phrase>
+		<id>bonnenuit</id>
+		<english_text>Good night (only said when going to bed)</english_text>
+		<french_text>Bonne nuit</french_text>
+	</phrase>
+	<phrase>
+		<id>salut</id>
+		<english_text>Hi / Bye</english_text>
+		<french_text>Salut</french_text>
+	</phrase>
+	<phrase>
+		<id>aurevoir</id>
+		<english_text>Goodbye</english_text>
+		<french_text>Au revoir</french_text>
+	</phrase>
+	<phrase>
+		<id>silvousplait</id>
+		<english_text>Please (formal)</english_text>
+		<french_text> S'il vous plaît</french_text>
+	</phrase>
+	<phrase>
+		<id>silteplait</id>
+		<english_text>Please (informal) </english_text>
+		<french_text>S'il te plaît</french_text>
+	</phrase>
+	<phrase>
+		<id>mercibcp</id>
+		<english_text>Thank you (very much)</english_text>
+		<french_text>Merci (beaucoup)</french_text>
+	</phrase>
+	<phrase>
+		<id>jevousenprie</id>
+		<english_text>You're welcome. (formal) (also Go ahead/After you) </english_text>
+		<french_text>Je vous en prie.</french_text>
+	</phrase>
+	<phrase>
+		<id>derien</id>
+		<english_text>You're welcome. (informal)</english_text>
+		<french_text>  De rien</french_text>
+	</phrase>
+	<phrase>
+		<id>bienvenu</id>
+		<english_text>Welcome (also You're welcome in Quebec)</english_text>
+		<french_text>Bienvenu(e)</french_text>
+	</phrase>
+	<phrase>
+		<id>atoutalheure</id>
+		<english_text>See you in a little while</english_text>
+		<french_text>A tout à l'heure</french_text>
+	</phrase>
+	<phrase>
+		<id>aplustard</id>
+		<english_text>See you later</english_text>
+		<french_text>A plus tard</french_text>
+	</phrase>
+	<phrase>
+		<id>abientot</id>
+		<english_text>See you soon</english_text>
+		<french_text>A bientôt</french_text>
+	</phrase>
+	<phrase>
+		<id>ademain</id>
+		<english_text>See you tomorrow</english_text>
+		<french_text>A demain</french_text>
+	</phrase>
+	<phrase>
+		<id>oui</id>
+		<english_text>Yes</english_text>
+		<french_text>Oui</french_text>
+	</phrase>
+	<phrase>
+		<id>non</id>
+		<english_text>No</english_text>
+		<french_text> Non</french_text>
+	</phrase>
+	<phrase>
+		<id>jesuisdesole</id>
+		<english_text>I'm sorry</english_text>
+		<french_text>Je suis désolé(e)</french_text>
+	</phrase>
+	<phrase>
+		<id>pardon</id>
+		<english_text>Excuse me! (pushing through a crowd) / Sorry! (stepped on someone's foot)</english_text>
+		<french_text>  Pardon !</french_text>
+	</phrase>
+	<phrase>
+		<id>allonsy</id>
+		<english_text>Let's go</english_text>
+		<french_text>Allons-y !</french_text>
+	</phrase>
+	<phrase>
+		<id>commentallezvous</id>
+		<english_text>How are you? (formal)</english_text>
+		<french_text>Comment allez-vous ?</french_text>
+	</phrase>
+	<phrase>
+		<id>cava</id>
+		<english_text>How are you? (informal)</english_text>
+		<french_text>Ça va ?</french_text>
+	</phrase>
+	<phrase>
+		<id>tresbien</id>
+		<english_text>Very good</english_text>
+		<french_text>Très bien</french_text>
+	</phrase>
+	<phrase>
+		<id>jevaisbien</id>
+		<english_text>I'm fine / I'm well</english_text>
+		<french_text>Je vais bien</french_text>
+	</phrase>
+	<phrase>
+		<id>cava2</id>
+		<english_text>I'm fine (in response to Ça va ?)</english_text>
+		<french_text>Ça va.</french_text>
+	</phrase>
+	<phrase>
+		<id>mal</id>
+		<english_text>Bad</english_text>
+		<french_text>Mal</french_text>
+	</phrase>
+	<phrase>
+		<id>pasmal</id>
+		<english_text>Not bad</english_text>
+		<french_text>Pas mal</french_text>
+	</phrase>
+	<phrase>
+		<id>commentvousappelezvous</id>
+		<english_text>What's your name? (formal)</english_text>
+		<french_text>Comment vous appelez-vous ?</french_text>
+	</phrase>
+	<phrase>
+		<id>tutappellescomment</id>
+		<english_text>What's your name? (informal)</english_text>
+		<french_text>Tu t'appelles comment ?</french_text>
+	</phrase>
+	<phrase>
+		<id>jemappelle</id>
+		<english_text>My name is...</english_text>
+		<french_text>Je m'appelle...</french_text>
+	</phrase>
+	<phrase>
+		<id>enchante</id>
+		<english_text>Nice to meet you</english_text>
+		<french_text>Enchanté(e)</french_text>
+	</phrase>
+	<phrase>
+		<id>monsieur</id>
+		<english_text>Mister / Sir</english_text>
+		<french_text>Monsieur</french_text>
+	</phrase>
+	<phrase>
+		<id>madame</id>
+		<english_text>Mrs. / Madam / Ma'am</english_text>
+		<french_text>Madame</french_text>
+	</phrase>
+	<phrase>
+		<id>mademoiselle</id>
+		<english_text>Miss</english_text>
+		<french_text>Mademoiselle</french_text>
+	</phrase>
+	<phrase>
+		<id>mesdamesetmessieurs</id>
+		<english_text>Ladies and gentlemen</english_text>
+		<french_text>Mesdames et messieurs</french_text>
+	</phrase>
+	<phrase>
+		<id>vousetesdou</id>
+		<english_text>Where are you from? (formal)</english_text>
+		<french_text>Vous êtes d'où ?</french_text>
+	</phrase>
+	<phrase>
+		<id>tuesdou</id>
+		<english_text>Where are you from? (informal)</english_text>
+		<french_text>Tu es d'où ?</french_text>
+	</phrase>
+	<phrase>
+		<id>jesuisde</id>
+		<english_text>I am from...</english_text>
+		<french_text>Je suis de...</french_text>
+	</phrase>
+	<phrase>
+		<id>ouhabitezvous</id>
+		<english_text>Where do you live? (formal)</english_text>
+		<french_text>Où habitez-vous ?</french_text>
+	</phrase>
+	<phrase>
+		<id>tuhabitesou</id>
+		<english_text>Where do you live? (informal)</english_text>
+		<french_text>Tu habites où ?</french_text>
+	</phrase>
+	<phrase>
+		<id>jhabitea</id>
+		<english_text>I live in...</english_text>
+		<french_text>J'habite à...</french_text>
+	</phrase>
+	<phrase>
+		<id>quelageavezvous</id>
+		<english_text>How old are you? (formal)</english_text>
+		<french_text>Quel âge avez-vous ?</french_text>
+	</phrase>
+	<phrase>
+		<id>tuasquelage</id>
+		<english_text>How old are you? (informal)</english_text>
+		<french_text>Tu as quel âge ?</french_text>
+	</phrase>
+	<phrase>
+		<id>jai_ans</id>
+		<english_text>I am ____ years old.</english_text>
+		<french_text>J'ai ____ ans.</french_text>
+	</phrase>
+	<phrase>
+		<id>parlezvousfrancais</id>
+		<english_text>Do you speak French? (formal)</english_text>
+		<french_text> Parlez-vous français </french_text>
+	</phrase>
+	<phrase>
+		<id>tuparlesanglais</id>
+		<english_text>Do you speak English? (informal)</english_text>
+		<french_text>Tu parles anglais ?</french_text>
+	</phrase>
+	<phrase>
+		<id>jeneparlepasespagnol</id>
+		<english_text>I don't speak Spanish.</english_text>
+		<french_text>Je ne parle pas espagnol.</french_text>
+	</phrase>
+	<phrase>
+		<id>comprenezvous</id>
+		<english_text>Do you understand? (formal)</english_text>
+		<french_text>Comprenez-vous?</french_text>
+	</phrase>
+	<phrase>
+		<id>tucomprends</id>
+		<english_text>Do you understand? (informal)</english_text>
+		<french_text>Tu comprends?</french_text>
+	</phrase>
+	<phrase>
+		<id>jenecomprendspas</id>
+		<english_text>I don't understand</english_text>
+		<french_text>Je ne comprends pas</french_text>
+	</phrase>
+	<phrase>
+		<id>jenesaispas</id>
+		<english_text>I don't know</english_text>
+		<french_text>Je ne sais pas</french_text>
+	</phrase>
+	<phrase>
+		<id>pouvezvousmaider</id>
+		<english_text>Can you help me? (formal)</english_text>
+		<french_text>Pouvez-vous m'aider ?</french_text>
+	</phrase>
+	<phrase>
+		<id>tupeuxmaider</id>
+		<english_text>Can you help me? (informal)</english_text>
+		<french_text>Tu peux m'aider ?</french_text>
+	</phrase>
+	<phrase>
+		<id>biensur</id>
+		<english_text>Of course</english_text>
+		<french_text>Bien sûr.</french_text>
+	</phrase>
+	<phrase>
+		<id>comment</id>
+		<english_text>I beg your pardon? / I'm sorry? </english_text>
+		<french_text>Comment?</french_text>
+	</phrase>
+	<phrase>
+		<id>ouest</id>
+		<english_text>Where is... ?</english_text>
+		<french_text>Où est ... ?</french_text>
+	</phrase>
+	<phrase>
+		<id>ousont</id>
+		<english_text>Where are... ?</english_text>
+		<french_text>Où sont ... ?</french_text>
+	</phrase>
+	<phrase>
+		<id>voici</id>
+		<english_text>Here is / are</english_text>
+		<french_text>Voici</french_text>
+	</phrase>
+	<phrase>
+		<id>voila</id>
+		<english_text>There it is.</english_text>
+		<french_text>Voilà</french_text>
+	</phrase>
+	<phrase>
+		<id>ilya</id>
+		<english_text>There is / are</english_text>
+		<french_text>Il y a</french_text>
+	</phrase>
+	<phrase>
+		<id>ilyavait</id>
+		<english_text>There was / were</english_text>
+		<french_text>Il y avait</french_text>
+	</phrase>
+	<phrase>
+		<id>commentditon</id>
+		<english_text>How do you say ________ in French?</english_text>
+		<french_text>Comment dit-on _____ en français ?</french_text>
+	</phrase>
+	<phrase>
+		<id>questcequecest</id>
+		<english_text>What is that?</english_text>
+		<french_text>Qu'est-ce que c'est que ça ?</french_text>
+	</phrase>
+	<phrase>
+		<id>questcequilya</id>
+		<english_text>What's the matter?</english_text>
+		<french_text>Qu'est-ce qu'il y a ?</french_text>
+	</phrase>
+	<phrase>
+		<id>canefaitrien</id>
+		<english_text>It doesn't matter.</english_text>
+		<french_text>Ça ne fait rien.</french_text>
+	</phrase>
+	<phrase>
+		<id>questcequisepasse</id>
+		<english_text>What's happening?</english_text>
+		<french_text>Qu'est-ce qui se passe ?</french_text>
+	</phrase>
+	<phrase>
+		<id>jenaiaucuneidee</id>
+		<english_text>I have no idea</english_text>
+		<french_text>Je n'ai aucune idée.</french_text>
+	</phrase>
+	<phrase>
+		<id>jesuisfatigue</id>
+		<english_text>I'm tired</english_text>
+		<french_text>Je suis fatigué(e)</french_text>
+	</phrase>
+	<phrase>
+		<id>jesuismalade</id>
+		<english_text>I'm sick</english_text>
+		<french_text>Je suis malade</french_text>
+	</phrase>
+	<phrase>
+		<id>jaifaim</id>
+		<english_text>I'm hungry</english_text>
+		<french_text>J'ai faim</french_text>
+	</phrase>
+	<phrase>
+		<id>jaisoif</id>
+		<english_text>I'm thirsty</english_text>
+		<french_text>J'ai soif</french_text>
+	</phrase>
+	<phrase>
+		<id>jaichaud</id>
+		<english_text>I'm hot</english_text>
+		<french_text>J'ai chaud</french_text>
+	</phrase>
+	<phrase>
+		<id>jaifroid</id>
+		<english_text>I'm cold</english_text>
+		<french_text>J'ai froid</french_text>
+	</phrase>
+	<phrase>
+		<id>jemennuie</id>
+		<english_text>I'm bored</english_text>
+		<french_text>Je m'ennuie</french_text>
+	</phrase>
+	<phrase>
+		<id>camestegal</id>
+		<english_text>It's all the same to me.</english_text>
+		<french_text>Ça m'est égal.</french_text>
+	</phrase>
+	<phrase>
+		<id>jemenfiche</id>
+		<english_text>I don't care. (informal)</english_text>
+		<french_text>Je m'en fiche.</french_text>
+	</phrase>
+	<phrase>
+		<id>nevousenfaitespas</id>
+		<english_text>Don't worry! (formal)</english_text>
+		<french_text>Ne vous en faites pas.</french_text>
+	</phrase>
+	<phrase>
+		<id>netenfaispas</id>
+		<english_text>Don't worry! (informal)</english_text>
+		<french_text>Ne t'en fais pas.</french_text>
+	</phrase>
+	<phrase>
+		<id>cenestpasgrave</id>
+		<english_text>It's alright.</english_text>
+		<french_text>Ce n'est pas grave.</french_text>
+	</phrase>
+	<phrase>
+		<id>jaioublie</id>
+		<english_text>I forgot.</english_text>
+		<french_text>J'ai oublié.</french_text>
+	</phrase>
+	<phrase>
+		<id>jedoisyaller</id>
+		<english_text>I have to go.</english_text>
+		<french_text>Je dois y aller.</french_text>
+	</phrase>
+	<phrase>
+		<id>avossouhaits</id>
+		<english_text>Bless you! (formal; when someone sneezes)</english_text>
+		<french_text>A vos souhaits !</french_text>
+	</phrase>
+	<phrase>
+		<id>atessouhaits</id>
+		<english_text>Bless you! (informal; when someone sneezes)</english_text>
+		<french_text>A tes souhaits !</french_text>
+	</phrase>
+	<phrase>
+		<id>felicitations</id>
+		<english_text>Congratulations!</english_text>
+		<french_text>Félicitations !</french_text>
+	</phrase>
+	<phrase>
+		<id>bonnechance</id>
+		<english_text>Good luck!</english_text>
+		<french_text>Bonne chance !</french_text>
+	</phrase>
+	<phrase>
+		<id>cestavous</id>
+		<english_text>It's your turn! (formal)</english_text>
+		<french_text>C'est à vous !</french_text>
+	</phrase>
+	<phrase>
+		<id>cestatoi</id>
+		<english_text>It's your turn! (informal)</english_text>
+		<french_text>C'est à toi !</french_text>
+	</phrase>
+	<phrase>
+		<id>taisezvous</id>
+		<english_text>Be quiet! (formal)</english_text>
+		<french_text>Taisez-vous !</french_text>
+	</phrase>
+	<phrase>
+		<id>taistoi</id>
+		<english_text>Be quiet! (informal)</english_text>
+		<french_text>Tais-toi !</french_text>
+	</phrase>
+	<phrase>
+		<id>jevousaime</id>
+		<english_text>I love you. (formal &amp; plural)</english_text>
+		<french_text>Je vous aime</french_text>
+	</phrase>
+	<phrase>
+		<id>jetaime</id>
+		<english_text>I love you. (informal)</english_text>
+		<french_text>Je t'aime</french_text>
+	</phrase>
+	<phrase>
+		<id>tenez</id>
+		<english_text>Here (formal; when handing something over)</english_text>
+		<french_text>Tenez</french_text>
+	</phrase>
+	<phrase>
+		<id>tiens</id>
+		<english_text>Here (informal; when handing something over)</english_text>
+		<french_text>Tiens</french_text>
+	</phrase>
+	<phrase>
+		<id>quoideneuf</id>
+		<english_text>What's new?</english_text>
+		<french_text>Quoi de neuf ? </french_text>
+	</phrase>
+	<phrase>
+		<id>pasgrandechose</id>
+		<english_text>Not much.</english_text>
+		<french_text>Pas grand-chose.</french_text>
+	</phrase>
+</phrases>
