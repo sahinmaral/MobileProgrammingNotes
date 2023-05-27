@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_tasks_header"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/light_purple"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewLevelImportanceHeader"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/filter_by_level_importance_placeholder" />
+
+        <com.example.todoapp.CustomSpinner
+            android:id="@+id/spinnerByLevelImportance"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_spinner" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutHorizontalDivider1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewStatusHeader"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/filter_by_status_placeholder" />
+
+        <com.example.todoapp.CustomSpinner
+            android:id="@+id/spinnerByStatus"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_spinner" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutHorizontalDivider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/buttonFilterTasks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_purple"
+                android:text="@string/filter_task_button_text" />
+
+</LinearLayout>

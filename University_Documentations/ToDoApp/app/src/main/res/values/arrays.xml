@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level_importances_array">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+    </string-array>
+    <string-array name="level_importances_filter_array">
+        <item>Any</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+    </string-array>
+    <string-array name="task_status_filter_array">
+        <item>Any</item>
+        <item>Not Completed</item>
+        <item>Completed</item>
+    </string-array>
+</resources>

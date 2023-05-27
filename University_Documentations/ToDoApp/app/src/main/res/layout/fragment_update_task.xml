@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_task_header"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/light_purple"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="679dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="51dp">
+
+            <TextView
+                android:id="@+id/textViewNameHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/name_placeholder" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/description_placeholder" />
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewLevelImportanceHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/level_importance_placeholder" />
+
+            <com.example.todoapp.CustomSpinner
+                android:id="@+id/spinnerLevelImportance"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:spinnerMode="dropdown"
+                android:dropDownVerticalOffset="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_spinner" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/colors_placeholder" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupColors"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textViewSetAlarmHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/set_alarm_placeholder" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:clickable="true"
+                android:longClickable="false"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_edittext"
+                android:id="@+id/editTextSetAlarm" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textViewSetEndTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/end_time_placeholder" />
+
+            <EditText
+                android:id="@+id/editTextSetEndTime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:longClickable="false"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:backgroundTint="@color/light_purple"
+                android:text="@string/update_task_button_text" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,1 @@
+Using Google Firebase in the app folder within the application requires google-services.json and it is personal. That's why it's hidden.
